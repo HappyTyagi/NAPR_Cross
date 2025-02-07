@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317646761546",
+    "project_id": "napr-fd7b6",
+    "storage_bucket": "napr-fd7b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317646761546:android:02d624c687a5d22aaec0b3",
+        "android_client_info": {
+          "package_name": "com.nmc.pets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317646761546-dgg3hffg97b1n57mq08ndianbtapga6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcox8tydMAZ2wcYfExeHpbDEiuXo2YM3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317646761546-dgg3hffg97b1n57mq08ndianbtapga6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

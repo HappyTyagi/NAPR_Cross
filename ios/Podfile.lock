@@ -1,0 +1,273 @@
+PODS:
+  - advance_pdf_viewer_fork (1.1.7):
+    - Flutter
+  - Firebase/CoreOnly (10.3.0):
+    - FirebaseCore (= 10.3.0)
+  - Firebase/Messaging (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.3.0)
+  - firebase_core (2.4.1):
+    - Firebase/CoreOnly (= 10.3.0)
+    - Flutter
+  - firebase_messaging (14.2.1):
+    - Firebase/Messaging (= 10.3.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (10.3.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.4.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseInstallations (10.4.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GoogleDataTransport (9.2.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.11.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.0)"
+  - GoogleUtilities/Reachability (7.11.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.0):
+    - GoogleUtilities/Logger
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - location_plus (0.0.1):
+    - Flutter
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - open_file (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - payu_checkoutpro_flutter (1.0.1):
+    - Flutter
+    - PayUIndia-CheckoutPro (~> 5.4)
+  - PayUIndia-Analytics (3.0.0):
+    - PayUIndia-NetworkReachability (~> 1.0)
+  - PayUIndia-AssetLibrary (3.2.0)
+  - PayUIndia-CardScanner (1.0.0)
+  - PayUIndia-CheckoutPro (5.4.1):
+    - PayUIndia-Analytics (= 3.0)
+    - PayUIndia-AssetLibrary (~> 3.2)
+    - PayUIndia-CardScanner (~> 1.0)
+    - PayUIndia-CheckoutProBase (~> 5.4)
+    - PayUIndia-CrashReporter (~> 2.1)
+    - PayUIndia-Custom-Browser (~> 9.1)
+    - PayUIndia-NativeOtpAssist (~> 2.1)
+    - PayUIndia-NetworkReachability (~> 1.0)
+    - PayUIndia-PayUParams (~> 4.4)
+    - PayUIndia-PG-SDK (~> 8.7)
+    - PayUIndia-UPICore (~> 7.0)
+  - PayUIndia-CheckoutProBase (5.4.0):
+    - PayUIndia-PayUParams (~> 4.4)
+  - PayUIndia-CrashReporter (2.1.0)
+  - PayUIndia-Custom-Browser (9.2.0):
+    - PayUIndia-Analytics (= 3.0)
+  - PayUIndia-Logger (4.0.0)
+  - PayUIndia-NativeOtpAssist (2.1.2):
+    - PayUIndia-Analytics (~> 3.0)
+    - PayUIndia-CrashReporter (~> 2.1)
+    - PayUIndia-NetworkReachability (~> 1.0)
+    - PayUIndia-PayUParams (~> 4.0)
+  - PayUIndia-Networking (4.0.0):
+    - PayUIndia-Logger (= 4.0.0)
+  - PayUIndia-NetworkReachability (1.0.1)
+  - PayUIndia-PayUParams (4.4.2)
+  - PayUIndia-PG-SDK (8.8.0):
+    - PayUIndia-CrashReporter (~> 2.1)
+    - PayUIndia-NetworkReachability (~> 1.0)
+    - PayUIndia-PayUParams (~> 4.4)
+  - PayUIndia-UPICore (7.1.0):
+    - PayUIndia-Networking (~> 4.0)
+    - PayUIndia-PayUParams (~> 4.4)
+  - pdfdownload (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - PromisesObjC (2.1.1)
+  - radio_group_v2 (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Toast (4.0.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - "webview_pro_wkwebview (2.7.1+1)":
+    - Flutter
+
+DEPENDENCIES:
+  - advance_pdf_viewer_fork (from `.symlinks/plugins/advance_pdf_viewer_fork/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - location_plus (from `.symlinks/plugins/location_plus/ios`)
+  - open_file (from `.symlinks/plugins/open_file/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - payu_checkoutpro_flutter (from `.symlinks/plugins/payu_checkoutpro_flutter/ios`)
+  - pdfdownload (from `.symlinks/plugins/pdfdownload/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - radio_group_v2 (from `.symlinks/plugins/radio_group_v2/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_pro_wkwebview (from `.symlinks/plugins/webview_pro_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FMDB
+    - GoogleDataTransport
+    - GoogleUtilities
+    - nanopb
+    - PayUIndia-Analytics
+    - PayUIndia-AssetLibrary
+    - PayUIndia-CardScanner
+    - PayUIndia-CheckoutPro
+    - PayUIndia-CheckoutProBase
+    - PayUIndia-CrashReporter
+    - PayUIndia-Custom-Browser
+    - PayUIndia-Logger
+    - PayUIndia-NativeOtpAssist
+    - PayUIndia-Networking
+    - PayUIndia-NetworkReachability
+    - PayUIndia-PayUParams
+    - PayUIndia-PG-SDK
+    - PayUIndia-UPICore
+    - PromisesObjC
+    - Toast
+
+EXTERNAL SOURCES:
+  advance_pdf_viewer_fork:
+    :path: ".symlinks/plugins/advance_pdf_viewer_fork/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  location_plus:
+    :path: ".symlinks/plugins/location_plus/ios"
+  open_file:
+    :path: ".symlinks/plugins/open_file/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  payu_checkoutpro_flutter:
+    :path: ".symlinks/plugins/payu_checkoutpro_flutter/ios"
+  pdfdownload:
+    :path: ".symlinks/plugins/pdfdownload/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  radio_group_v2:
+    :path: ".symlinks/plugins/radio_group_v2/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_pro_wkwebview:
+    :path: ".symlinks/plugins/webview_pro_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  advance_pdf_viewer_fork: 7364d9c1ea71ec070d35b78d4341eadbabe84549
+  Firebase: f92fc551ead69c94168d36c2b26188263860acd9
+  firebase_core: bf59c32d2e53814f558efa20840c1902fa2fe461
+  firebase_messaging: ee597229fc260f8fa491fa8f2d4a32dfbfa406fa
+  FirebaseCore: 988754646ab3bd4bdcb740f1bfe26b9f6c0d5f2a
+  FirebaseCoreInternal: e301297f4c15a17489e48ed722d733b1578e0c02
+  FirebaseInstallations: 36b38c733fd37e50857e5e8d74138648f466f18c
+  FirebaseMessaging: e345b219fd15d325f0cf2fef28cb8ce00d851b3f
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  fluttertoast: eb263d302cc92e04176c053d2385237e9f43fad0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GoogleDataTransport: ea169759df570f4e37bdee1623ec32a7e64e67c4
+  GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
+  image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  location_plus: 052be2ab9e1be53ed3a460b32f21ef7f1fa4185b
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  open_file: 02eb5cb6b21264bd3a696876f5afbfb7ca4f4b7d
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+  payu_checkoutpro_flutter: a10ec93baacaa479416309f857570930ceb26728
+  PayUIndia-Analytics: a23768b29283ef781783f38a99c1cf2235020d58
+  PayUIndia-AssetLibrary: 09677a1cb9a6c21e1cb9e4143e0898d9139982f4
+  PayUIndia-CardScanner: 42a10e1112f1bc954fdb407dd6de472fbf31fa27
+  PayUIndia-CheckoutPro: adc8b1ed65c0db51748539aa50939c916946718a
+  PayUIndia-CheckoutProBase: fc961269896e82c7108f230189e05bec6487e784
+  PayUIndia-CrashReporter: 597caf134e85f9b3bde7d2045cae2def1b86c544
+  PayUIndia-Custom-Browser: a59cd7aa369664e1b6d212c1124d78ee2c5e98bc
+  PayUIndia-Logger: e353d9dd576bac593e428dfbadedf337cbb48b78
+  PayUIndia-NativeOtpAssist: 574b763ea44f370652fbbedcab1096048a21fbec
+  PayUIndia-Networking: bf53f743484256303e24d4e763e6097f04af769c
+  PayUIndia-NetworkReachability: 99e69781b3be99d7b713075ab7b73e6d73a153e4
+  PayUIndia-PayUParams: 7aa0d9ee3b2e24ec2217c61d6390e264b50411e6
+  PayUIndia-PG-SDK: 4f69a95e592630430d882bd7e453a66b2267fbc0
+  PayUIndia-UPICore: 565fd3ed6b0f4ac5b7b04236a748d19504fe0171
+  pdfdownload: 3aad5cf94291ef7c26adfaca27da849c873a3b5d
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  radio_group_v2: 5717ae8a46712014a7d99669c0c11387aff9f964
+  shared_preferences_foundation: 297b3ebca31b34ec92be11acd7fb0ba932c822ca
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher_ios: ae1517e5e344f5544fb090b079e11f399dfbe4d2
+  webview_pro_wkwebview: 38019db9fcfb544f91e1b0e46b11af71a42b6d2c
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.10.1
